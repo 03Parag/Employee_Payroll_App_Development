@@ -1,0 +1,6 @@
+package com.example.Employee_Payroll_App_Development.UC2_Demonstrate_Various_Methods.Repository;
+
+import com.example.Employee_Payroll_App_Development.UC2_Demonstrate_Various_Methods.Model.EmployeeModel_Methods;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface EmployeeRepository_Methods extends JpaRepository<EmployeeModel_Methods, Long> {
+}
