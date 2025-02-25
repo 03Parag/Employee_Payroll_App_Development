@@ -1,0 +1,6 @@
+package com.example.Employee_Payroll_App_Development.Section2_UC2_Intro_Services_Layer.Repository;
+
+import com.example.Employee_Payroll_App_Development.Section2_UC2_Intro_Services_Layer.Model.EmployeeModel_Services;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface EmployeeRepository_Services extends JpaRepository<EmployeeModel_Services, Long> {
+}
